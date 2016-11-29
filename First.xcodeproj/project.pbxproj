@@ -13,6 +13,7 @@
 		03C2066B1DEDD56700E949B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C206691DEDD56700E949B7 /* Main.storyboard */; };
 		03C206761DEDD56800E949B7 /* FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C206751DEDD56800E949B7 /* FirstTests.swift */; };
 		03C206811DEDD56800E949B7 /* FirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C206801DEDD56800E949B7 /* FirstUITests.swift */; };
+		03C2068F1DEDDEF900E949B7 /* Asset 19.svg in Resources */ = {isa = PBXBuildFile; fileRef = 03C2068E1DEDDEF900E949B7 /* Asset 19.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		03C2067C1DEDD56800E949B7 /* FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C206801DEDD56800E949B7 /* FirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUITests.swift; sourceTree = "<group>"; };
 		03C206821DEDD56800E949B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C2068E1DEDDEF900E949B7 /* Asset 19.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Asset 19.svg"; path = "../../../Creative Cloud Files/Asset 19.svg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		03C206621DEDD56700E949B7 /* First */ = {
 			isa = PBXGroup;
 			children = (
+				03C206901DEDDF1500E949B7 /* Assets */,
 				03C206631DEDD56700E949B7 /* AppDelegate.swift */,
 				03C206651DEDD56700E949B7 /* ViewController.swift */,
 				03C206671DEDD56700E949B7 /* Assets.xcassets */,
@@ -120,6 +123,15 @@
 				03C206821DEDD56800E949B7 /* Info.plist */,
 			);
 			path = FirstUITests;
+			sourceTree = "<group>";
+		};
+		03C206901DEDDF1500E949B7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				03C2068E1DEDDEF900E949B7 /* Asset 19.svg */,
+			);
+			name = Assets;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +243,7 @@
 			files = (
 				03C206681DEDD56700E949B7 /* Assets.xcassets in Resources */,
 				03C2066B1DEDD56700E949B7 /* Main.storyboard in Resources */,
+				03C2068F1DEDDEF900E949B7 /* Asset 19.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
